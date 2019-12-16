@@ -1,0 +1,9 @@
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\bin\Debug\AppCountJobs.exe.config
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\bin\Debug\AppCountJobs.exe
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\bin\Debug\AppCountJobs.pdb
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\obj\Debug\AppCountJobs.csprojResolveAssemblyReference.cache
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\obj\Debug\AppCountJobs.Properties.Resources.resources
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\obj\Debug\AppCountJobs.csproj.GenerateResource.Cache
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\obj\Debug\AppCountJobs.exe
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\obj\Debug\AppCountJobs.pdb
+D:\documents\ISD\myProjc#\AppCountJobs\AppCountJobs\obj\Debug\AppCountJobs.Form1.resources

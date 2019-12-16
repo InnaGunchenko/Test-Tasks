@@ -1,0 +1,18 @@
+D:\documents\isd\my projc#\ProcessMonitor\ProcessMonitor\bin\Debug\ProcessMonitor.exe.config
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\bin\Debug\ProcessMonitor.exe
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\bin\Debug\ProcessMonitor.pdb
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\obj\Debug\ProcessMonitor.exe
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\obj\Debug\ProcessMonitor.pdb
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\bin\Debug\Autofac.dll
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\bin\Debug\Autofac.pdb
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\bin\Debug\Autofac.xml
+D:\documents\ISD\my projc#\ProcessMonitor\ProcessMonitor\obj\Debug\ProcessMonitor.csprojResolveAssemblyReference.cache
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\bin\Debug\ProcessMonitor.exe
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\bin\Debug\ProcessMonitor.exe.config
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\obj\Debug\ProcessMonitor.exe
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\obj\Debug\ProcessMonitor.pdb
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\bin\Debug\ProcessMonitor.pdb
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\obj\Debug\ProcessMonitor.csprojResolveAssemblyReference.cache
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\bin\Debug\Autofac.dll
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\bin\Debug\Autofac.pdb
+D:\documents\ISD\myProjc#\ProcessMonitor\ProcessMonitor\bin\Debug\Autofac.xml
