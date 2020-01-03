@@ -1,0 +1,5 @@
+﻿GO
+SET DATEFORMAT dmy;
+GO
+CREATE DATABASE dbEmployees
+GO

@@ -1,0 +1,43 @@
+﻿<Window x:Class="StaffTestWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Справочник сотрудников" Height="349" Width="653" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <DockPanel LastChildFill="False" VerticalAlignment="Top" DockPanel.Dock="Top" >
+                <Button x:Name="btnInsert" Content="Добавить" Width="63" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnInsert_Click" Background="#FFF7F7F7"/>
+                <Button x:Name="btnUpdate" Content="Редактировать" Width="93" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnUpdate_Click" />
+                <Button x:Name="btnDel" Content="Удалить всех" Width="80" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnDel_Click" />
+                <Button x:Name="btnFind" Content="Найти" Width="67" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnFind_Click" />
+                <Button x:Name="btnDismiss" Content="Уволить" Width="67" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnDismiss_Click"/>
+                <Button x:Name="btnStatistics" Content="Статистика" Width="67" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnStatistics_Click" />
+                <Button x:Name="btnImport" Content="Импорт" Width="67" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnImport_Click" />
+                <Button x:Name="btnExport" Content="Экспорт" Width="67" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFF7F7F7" Click="btnExport_Click" />
+            </DockPanel>
+            <DockPanel Name="searchPanel" Height="20" LastChildFill="True" DockPanel.Dock="Top" >
+                <TextBox x:Name="tbSearch" BorderBrush="Black" Width="516" HorizontalAlignment="Left" VerticalAlignment="Top"  />
+                <Button Name="btSearch" Content="Ok" Width="55" Click="btSearch_Click" VerticalAlignment="Top" HorizontalAlignment="Left" />
+            </DockPanel>
+            <DataGrid ColumnWidth="*" Name="dgEmployee" CanUserAddRows="False" AutoGenerateColumns="False" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray">
+                <DataGrid.ItemContainerStyle>
+                    <Style TargetType="DataGridRow">
+                        <EventSetter Event="MouseDoubleClick" Handler="row_DoubleClick"/>
+                    </Style>
+                </DataGrid.ItemContainerStyle>
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding Id}" />
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding FullName}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding Addres}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding BirthDate}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding Phone}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding VacantPosition}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding Status}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding Salary}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding DateStart}"/>
+                    <DataGridTextColumn IsReadOnly="True" Binding="{Binding DateDismiss}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+    </Grid>
+</Window>
